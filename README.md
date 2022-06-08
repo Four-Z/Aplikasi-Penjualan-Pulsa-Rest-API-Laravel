@@ -32,7 +32,8 @@ http://127.0.0.1:8000/api/pelanggan?id_provider={id_provider}&harga={harga yg di
 ```
 http://127.0.0.1:8000/api/pelanggan?no_hp={no_hp}
 ```
-key: - no_hp
+key: 
+- no_hp
 
 ###### Laporan Penjualan
 ```
@@ -46,15 +47,17 @@ http://127.0.0.1:8000/api/penjualan
 ```
 http://127.0.0.1:8000/api/providers?id_provider={id_provider}&harga={harga yg ditambah}
 ```
-key: - id_provider
-     - harga
+key: 
+- id_provider
+- harga
 
 ###### Membeli Pulsa
 ```
 http://127.0.0.1:8000/api/pelanggan?no_hp={no_hp}&harga={jumlah pulsa yang dibeli berdasarkan daftar harga pulsa}
 ```
-key: - no_hp
-     - harga
+key: 
+- no_hp
+- harga
 
 
 ## Method PUT
@@ -63,8 +66,9 @@ key: - no_hp
 ```
 http://127.0.0.1:8000/api/providers/{id_daftar_harga}/?id_provider={id_provider}&harga={harga yg diubah}
 ```
-key: - id_provider
-     - harga
+key: 
+- id_provider
+- harga
 
 
 ## Method DELETE
