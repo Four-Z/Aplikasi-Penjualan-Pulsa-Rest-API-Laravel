@@ -23,11 +23,6 @@ http://127.0.0.1:8000/api/providers
 http://127.0.0.1:8000/api/providers/{id_provider}
 ```
 
-###### Mengecek Daftar Harga salah satu Provider
-```
-http://127.0.0.1:8000/api/pelanggan?id_provider={id_provider}&harga={harga yg ditambah}
-```
-
 ###### Mengecek Pulsa
 ```
 http://127.0.0.1:8000/api/pelanggan?no_hp={no_hp}
