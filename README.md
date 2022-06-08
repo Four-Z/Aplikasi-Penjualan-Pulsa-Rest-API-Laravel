@@ -67,6 +67,8 @@ key:
 
 
 ## Method DELETE
+
+###### Menghapus daftar harga
 ```
-http://127.0.0.1:8000/api/providers/{id_provider}
+http://127.0.0.1:8000/api/providers/{id_daftar_harga}
 ```
