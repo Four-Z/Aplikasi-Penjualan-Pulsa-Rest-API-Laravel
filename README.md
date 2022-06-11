@@ -8,6 +8,7 @@ Aplikasi Penjualan Pulsa berbasis REST API menggunakan framework Laravel
 | Menambah, Mengedit, Menghapus Daftar Harga | :white_check_mark:  |
 | Check Pulsa | :white_check_mark:  |
 | Pembelian Pulsa | :white_check_mark:  |
+| Laporan Penjualan | :white_check_mark:  |
 | Notifikasi email ketika berhasil membeli pulsa | :x:  |
 
 
